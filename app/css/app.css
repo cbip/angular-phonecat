@@ -6,6 +6,7 @@ body {
 
 
 .phone-images {
+  background-color: white;
   width: 450px;
   height: 450px;
   overflow: hidden;
@@ -19,7 +20,7 @@ body {
 
 .thumb {
   float: left;
-  margin: -1em 1em 1.5em 0em;
+  margin: -0.5em 1em 1.5em 0;
   padding-bottom: 1em;
   height: 100px;
   width: 100px;
@@ -27,7 +28,7 @@ body {
 
 .phones li {
   clear: both;
-  height: 100px;
+  height: 115px;
   padding-top: 15px;
 }
 
@@ -40,7 +41,13 @@ img.phone {
   padding: 2em;
   height: 400px;
   width: 400px;
+  display: none;
 }
+
+img.phone:first-child {
+  display: block;
+}
+
 
 ul.phone-thumbs {
   margin: 0;
